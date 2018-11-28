@@ -14,6 +14,6 @@ sudo apt-get autoclean <br />
 mysql -u root -p 
 
 ## Creating Database BackUp
-mysqldump --all-databases > dump.sql
-    
-    
+mysqldump -u root -p --all-databases > all_db_backup.sql
+
+

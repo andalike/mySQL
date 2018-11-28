@@ -10,4 +10,10 @@ sudo apt-get autoremove <br />
 sudo apt-get autoclean <br />
     
     
+## Connect to Database
+mysql -u root -p 
+
+## Creating Database BackUp
+mysqldump --all-databases > dump.sql
+    
     

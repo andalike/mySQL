@@ -16,6 +16,9 @@ mysql -u root -p
 ## Creating Database BackUp
 mysqldump -u root -p --all-databases > all_db_backup.sql
 
+## Restoring Database BackUp
+sudo mysql -u root -p menagerie < all_db_backup1.sql
+
 ## MYSQL Using Docker
 sudo docker run --name=mysql1 -d mysql/mysql-server:5.7
 

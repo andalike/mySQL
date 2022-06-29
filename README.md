@@ -22,4 +22,9 @@ sudo mysql -u root -p menagerie < all_db_backup1.sql
 ## MYSQL Using Docker
 sudo docker run --name=mysql1 -d mysql/mysql-server:5.7
 
+## Create a MySQL Instance
+Create a MySQL instance using AMI for version 5.7
+
+## Connecting to External Machine
+ mysql -u admin -p -h database-1.someaddress.ap-south-1.rds.amazonaws.com -P 3306
 

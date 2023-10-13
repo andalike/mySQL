@@ -5,8 +5,6 @@ sudo mysql   <br />
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; <br />
 exit <br />
 mysql -u root -p <br />
-ALTER USER 'root'@'localhost' IDENTIFIED WITH auth_socket;<br />
-sudo mysql_secure_installation<br />
 
 ## Removing MYSQL
 sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-* <br />
